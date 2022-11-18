@@ -4,6 +4,33 @@
     background-image: url("../../images/header_1x.png");
     background-size: 740px 685px;
     background-repeat: no-repeat;
-    background-position: right 20px top -5px;
+    background-position: 130% 52%;
     padding-top: 22px;
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx) {
+    .header {
+        background-image: url("../../images/header_2x.png");
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        background-position: 150% 52%;
+    }
+}
+
+@media screen and (max-width: 966px) {
+    .header {
+        background-position: 170% 52%;
+    }
+}
+
+@media screen and (max-width: 886px) {
+    .header {
+        background-position: 170% 52%;
+
+    }
 }
