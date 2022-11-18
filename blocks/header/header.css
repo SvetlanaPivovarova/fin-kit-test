@@ -1,0 +1,9 @@
+.header {
+    background-color: #CBECFF;
+    min-height: 678px;
+    background-image: url("../../images/header_1x.png");
+    background-size: 740px 685px;
+    background-repeat: no-repeat;
+    background-position: right 20px top -5px;
+    padding-top: 22px;
+}
