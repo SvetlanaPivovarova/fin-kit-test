@@ -1,0 +1,5 @@
+.mission__list {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr 1fr;
+}

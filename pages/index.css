@@ -28,9 +28,12 @@
 @import url(../blocks/article/__icon/_type/article__icon_type_filter.css);
 @import url(../blocks/article/__icon/_type/article__icon_type_settings.css);
 
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__title/_type/section__title_type_blue.css);
+@import url(../blocks/section/__title/_type/section__title_type_mission.css);
+
 @import url(../blocks/products/products.css);
-@import url(../blocks/products/__title/products__title.css);
-@import url(../blocks/products/__title/_type/products__title_type_blue.css);
 @import url(../blocks/products/__list/products__list.css);
 @import url(../blocks/products/__item/products__item.css);
 
@@ -38,3 +41,12 @@
 @import url(../blocks/card/__heading/card__heading.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__figure/card__figure.css);
+
+@import url(../blocks/mission/mission.css);
+@import url(../blocks/mission/__container/mission__container.css);
+@import url(../blocks/mission/__text/mission__text.css);
+@import url(../blocks/mission/__list/mission__list.css);
+@import url(../blocks/mission/__items/mission__items.css);
+@import url(../blocks/mission/__item/mission__item.css);
+@import url(../blocks/mission/__item_text/mission__item_text.css);
+@import url(../blocks/mission/__icon/mission__icon.css);
