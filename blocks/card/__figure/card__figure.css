@@ -1,0 +1,5 @@
+.card__figure {
+    max-width: 218px;
+    object-fit: contain;
+    margin-bottom: -7px;
+}
