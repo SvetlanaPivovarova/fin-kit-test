@@ -10,7 +10,3 @@
     padding: 22px 20px;
     box-sizing: border-box;
 }
-
-.article:last-of-type {
-    margin-left: 0;
-}
