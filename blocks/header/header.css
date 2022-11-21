@@ -18,19 +18,27 @@
 
 @media screen and (max-width: 1000px) {
     .header {
-        background-position: 150% 52%;
-    }
-}
-
-@media screen and (max-width: 966px) {
-    .header {
-        background-position: 170% 52%;
+        background-position: 180% 52%;
     }
 }
 
 @media screen and (max-width: 886px) {
     .header {
-        background-position: 170% 52%;
+        background-size: 640px;
+        background-position: 150% 52%;
+    }
+}
 
+@media screen and (max-width: 784px) {
+    .header {
+        background-size: 521px;
+        background-position: 170% 52%;
+    }
+}
+
+@media screen and (max-width: 684px) {
+    .header {
+
+        overflow: hidden;
     }
 }

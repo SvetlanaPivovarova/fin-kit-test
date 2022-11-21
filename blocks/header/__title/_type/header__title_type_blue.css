@@ -4,9 +4,15 @@
     background-size: 140px 80px;
     background-position: left -15px;
     display: inline-block;
-    min-height: 80px;
+    height: 80px;
     padding: 0 12px 0;
     box-sizing: border-box;
     border-radius: 20px;
     margin: 0;
+}
+
+@media screen and (max-width: 568px) {
+    .header__title_type_blue {
+        height: 59px;
+    }
 }
