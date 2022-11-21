@@ -1,0 +1,8 @@
+.intro {
+    max-width: 100%;
+    padding: 0 43px;
+    margin: 0 auto;
+    background-color: #CBECFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

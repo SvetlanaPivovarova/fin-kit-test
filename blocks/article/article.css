@@ -1,0 +1,16 @@
+.article {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 241px;
+    min-height: 118px;
+    border-radius: 20px;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 0 20px -35px 0;
+    padding: 22px 20px;
+    box-sizing: border-box;
+}
+
+.article:last-of-type {
+    margin-left: 0;
+}

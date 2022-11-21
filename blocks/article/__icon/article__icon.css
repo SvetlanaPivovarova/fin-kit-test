@@ -1,0 +1,9 @@
+.article__icon {
+    min-width: 39px;
+    height: 39px;
+    background-color: #EFF9FF;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 20px;
+    border-radius: 20px;
+}
