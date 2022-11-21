@@ -2,11 +2,28 @@
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    width: 241px;
+    min-width: 241px;
     min-height: 118px;
     border-radius: 20px;
     box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
-    margin: 0 20px -35px 0;
+    margin: 0 0 -35px 0;
     padding: 22px 20px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1014px) {
+    .article {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .article {
+        flex-direction: column-reverse;
+        min-width: 164px;
+        min-height: 118px;
+        padding: 0 18px 0 12px;
+        justify-content: start;
+        align-self: center;
+    }
 }

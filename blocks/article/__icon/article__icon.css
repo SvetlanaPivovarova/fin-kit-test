@@ -1,9 +1,16 @@
 .article__icon {
-    min-width: 39px;
+    width: 39px;
     height: 39px;
     background-color: #EFF9FF;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 20px;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 568px) {
+    .article__icon {
+        margin-top: -5px;
+        margin-bottom: 7.83px;
+    }
 }
