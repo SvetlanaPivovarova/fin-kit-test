@@ -2,6 +2,12 @@
     max-width: 501px;
     display: grid;
     grid-template-columns: repeat(2, minmax(164px, 251px));
-
     gap: 21px 19px;
+}
+
+@media screen and (max-width: 660px) {
+    .mission__list {
+        padding-left: 0;
+
+    }
 }

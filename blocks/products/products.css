@@ -1,5 +1,14 @@
 .products {
     width: 100%;
     flex-direction: column;
-
+    padding: 0 50px;
+    box-sizing: border-box;
 }
+
+@media screen and (max-width: 870px) {
+    .products {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+

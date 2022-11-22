@@ -2,3 +2,10 @@
     text-align: start;
     margin-bottom: 21px;
 }
+
+@media screen and (max-width: 660px) {
+    .section__title_type_mission {
+        text-align: center;
+        max-width: 100%;
+    }
+}

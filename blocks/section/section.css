@@ -2,3 +2,9 @@
     display: flex;
     margin-bottom: 115px;
 }
+
+@media screen and (max-width: 660px) {
+    .section {
+        margin-bottom: 40px;
+    }
+}

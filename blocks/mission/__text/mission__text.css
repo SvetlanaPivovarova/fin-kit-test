@@ -3,3 +3,9 @@
     max-width: 405px;
     margin-bottom: 37px;
 }
+
+@media screen and (max-width: 660px) {
+    .mission__text {
+        text-align: center;
+    }
+}
