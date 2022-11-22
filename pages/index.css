@@ -50,3 +50,7 @@
 @import url(../blocks/mission/__item/mission__item.css);
 @import url(../blocks/mission/__item_text/mission__item_text.css);
 @import url(../blocks/mission/__icon/mission__icon.css);
+@import url(../blocks/mission/__icon/_type/mission__icon_type_economy.css);
+@import url(../blocks/mission/__icon/_type/mission__icon_type_start.css);
+@import url(../blocks/mission/__icon/_type/mission__icon_type_clients.css);
+@import url(../blocks/mission/__icon/_type/mission__icon_type_loyalty.css);
