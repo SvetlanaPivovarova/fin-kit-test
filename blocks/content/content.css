@@ -3,7 +3,7 @@
     padding: 0 60px;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 660px) {
     .content {
         padding-right: 16px;
         padding-left: 16px;

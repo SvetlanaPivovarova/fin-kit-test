@@ -1,44 +1,8 @@
 .header {
     background-color: #CBECFF;
     min-height: 678px;
-    background-image: url("../../images/header_1x.png");
-    background-size: 740px 685px;
-    background-repeat: no-repeat;
-    background-position: 130% 52%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
     padding-top: 22px;
-}
-
-@media
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 2dppx) {
-    .header {
-        background-image: url("../../images/header_2x.png");
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .header {
-        background-position: 180% 52%;
-    }
-}
-
-@media screen and (max-width: 886px) {
-    .header {
-        background-size: 640px;
-        background-position: 150% 52%;
-    }
-}
-
-@media screen and (max-width: 784px) {
-    .header {
-        background-size: 521px;
-        background-position: 170% 52%;
-    }
-}
-
-@media screen and (max-width: 684px) {
-    .header {
-
-        overflow: hidden;
-    }
 }

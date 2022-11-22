@@ -1,0 +1,29 @@
+.header__illustration {
+    width: 740.33px;
+    height: 684.81px;
+    position: absolute;
+    right: -20px;
+    top: -5px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 980px) {
+    .header__illustration {
+        right: -110px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .header__illustration {
+        right: -200px;
+
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .header__illustration {
+        width: 538.37px;
+        height: 498px;
+        left: 0;
+    }
+}
